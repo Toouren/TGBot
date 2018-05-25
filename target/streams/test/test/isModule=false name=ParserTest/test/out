@@ -1,0 +1,27 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mParserTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThere are 10 same polls[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be created[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThere are 10 same polls[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be deleted[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThere is list with no sets[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be compared[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThere is list with visibility set[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be compared[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThere is list with anonymity set[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be compared[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThere is list with visibility and anonymity sets[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be compared[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThere is trying to delete uncreated polls[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThere is trying to start uncreated polls[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThere is trying to start created polls[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThere is trying to stop uncreated polls[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThere is trying to stop created polls[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThere is trying to get result from uncreated polls[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThere is trying to check any bad commands[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be message about bat command[0m[0m

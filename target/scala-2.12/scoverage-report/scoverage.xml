@@ -1,0 +1,672 @@
+<scoverage 
+statement-count="171" statements-invoked="142" statement-rate="83.04" branch-rate="100.00" version="1.0" timestamp="1524852559821">
+    <packages>
+        <package name="&lt;empty&gt;" statement-count="171" statements-invoked="142" statement-rate="83.04">
+            <classes>
+                <class 
+                name="Bot" filename="Bot.scala" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Bot/doCommand" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Bot" class-type="Class" full-class-name="Bot" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Bot.scala" method="doCommand" start="139" end="182" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Bot" class-type="Class" full-class-name="Bot" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Bot.scala" method="doCommand" start="161" end="181" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="CommandExecutor" filename="CommandExecutor.scala" statement-count="25" statements-invoked="24" statement-rate="96.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/CommandExecutor/executeCommand" statement-count="21" statements-invoked="20" statement-rate="95.24" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="1067" end="1098" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="695" end="726" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="367" end="430" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="1234" end="1265" line="38" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="440" end="473" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="883" end="914" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="616" end="632" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="552" end="570" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="1015" end="1045" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="643" end="673" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="373" end="430" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="1197" end="1212" line="37" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="352" end="431" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="828" end="861" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="764" end="782" line="23" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="352" end="431" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="951" end="969" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="496" end="521" line="14" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="616" end="632" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="1133" end="1151" line="35" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="executeCommand" start="325" end="343" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandExecutor/&lt;none&gt;" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="&lt;none&gt;" start="130" end="153" line="5" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="&lt;none&gt;" start="142" end="143" line="5" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="&lt;none&gt;" start="92" end="101" line="4" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandExecutor/applyCommand" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandExecutor" class-type="Object" full-class-name="CommandExecutor" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandExecutor.scala" method="applyCommand" start="1375" end="1398" line="45" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="Poll" filename="Poll.scala" statement-count="13" statements-invoked="13" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Poll/toString" statement-count="13" statements-invoked="13" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Poll" class-type="Class" full-class-name="Poll" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Poll.scala" method="toString" start="424" end="427" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Poll" class-type="Class" full-class-name="Poll" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Poll.scala" method="toString" start="288" end="298" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Poll" class-type="Class" full-class-name="Poll" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Poll.scala" method="toString" start="256" end="265" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Poll" class-type="Class" full-class-name="Poll" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Poll.scala" method="toString" start="386" end="423" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Poll" class-type="Class" full-class-name="Poll" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Poll.scala" method="toString" start="234" end="256" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Poll" class-type="Class" full-class-name="Poll" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Poll.scala" method="toString" start="364" end="385" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Poll" class-type="Class" full-class-name="Poll" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Poll.scala" method="toString" start="230" end="234" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Poll" class-type="Class" full-class-name="Poll" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Poll.scala" method="toString" start="322" end="363" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Poll" class-type="Class" full-class-name="Poll" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Poll.scala" method="toString" start="222" end="230" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Poll" class-type="Class" full-class-name="Poll" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Poll.scala" method="toString" start="218" end="439" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Poll" class-type="Class" full-class-name="Poll" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Poll.scala" method="toString" start="298" end="321" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Poll" class-type="Class" full-class-name="Poll" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Poll.scala" method="toString" start="218" end="427" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Poll" class-type="Class" full-class-name="Poll" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Poll.scala" method="toString" start="265" end="288" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="Main" filename="Main.scala" statement-count="15" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Main/main" statement-count="15" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Main.scala" method="main" start="84" end="159" line="6" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Main.scala" method="main" start="366" end="398" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Main.scala" method="main" start="404" end="440" line="12" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Main.scala" method="main" start="221" end="250" line="8" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Main.scala" method="main" start="262" end="302" line="9" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Main.scala" method="main" start="90" end="158" line="6" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Main.scala" method="main" start="308" end="355" line="10" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Main.scala" method="main" start="410" end="439" line="12" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Main.scala" method="main" start="164" end="210" line="7" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Main.scala" method="main" start="170" end="209" line="7" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Main.scala" method="main" start="360" end="399" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Main.scala" method="main" start="215" end="251" line="8" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Main.scala" method="main" start="72" end="79" line="5" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Main.scala" method="main" start="314" end="354" line="10" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Main" class-type="Object" full-class-name="Main" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\Main.scala" method="main" start="256" end="303" line="9" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="CommandParser" filename="CommandParser.scala" statement-count="116" statements-invoked="103" statement-rate="88.79" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/deletePoll" statement-count="5" statements-invoked="5" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="deletePoll" start="1341" end="1354" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="deletePoll" start="1321" end="1385" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="deletePoll" start="1321" end="1337" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="deletePoll" start="1321" end="1335" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="deletePoll" start="1371" end="1385" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/string" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="string" start="407" end="444" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="string" start="407" end="446" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="string" start="407" end="446" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/anonymity" statement-count="7" statements-invoked="7" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="anonymity" start="483" end="486" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="anonymity" start="490" end="500" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="anonymity" start="483" end="528" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="anonymity" start="512" end="527" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="anonymity" start="490" end="500" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="anonymity" start="504" end="507" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="anonymity" start="490" end="498" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/digits" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="digits" start="350" end="361" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="digits" start="350" end="359" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="digits" start="350" end="374" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="digits" start="366" end="373" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/createPoll" statement-count="27" statements-invoked="22" statement-rate="81.48" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1817" end="1829" line="46" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1865" end="1865" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="2017" end="2017" line="49" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="2146" end="2196" line="51" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1865" end="1881" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1794" end="1831" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1926" end="1926" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1765" end="1832" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1724" end="1738" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1926" end="1926" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1724" end="2360" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1777" end="1832" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="2017" end="2017" line="49" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1865" end="1865" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1744" end="1758" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="2146" end="2146" line="51" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1865" end="1865" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1798" end="1830" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="2017" end="2056" line="49" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1865" end="1865" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="2295" end="2354" line="53" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1781" end="1831" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1926" end="1926" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1926" end="1953" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1724" end="1740" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1761" end="1833" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="createPoll" start="1813" end="1830" line="46" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/visibility" statement-count="7" statements-invoked="7" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="visibility" start="573" end="597" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="visibility" start="609" end="625" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="visibility" start="573" end="595" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="visibility" start="601" end="604" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="visibility" start="566" end="626" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="visibility" start="566" end="569" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="visibility" start="573" end="597" line="17" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/result" statement-count="5" statements-invoked="5" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="result" start="1637" end="1650" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="result" start="1622" end="1677" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="result" start="1622" end="1633" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="result" start="1667" end="1677" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="result" start="1622" end="1631" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/&lt;none&gt;" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="&lt;none&gt;" start="299" end="319" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="&lt;none&gt;" start="228" end="241" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="&lt;none&gt;" start="277" end="297" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="&lt;none&gt;" start="213" end="226" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="&lt;none&gt;" start="209" end="242" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="&lt;none&gt;" start="273" end="320" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/list" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="list" start="1252" end="1259" line="35" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="list" start="1252" end="1278" line="35" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="list" start="1272" end="1278" line="35" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="list" start="1252" end="1261" line="35" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/digitArgument" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="digitArgument" start="1148" end="1151" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="digitArgument" start="1138" end="1144" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="digitArgument" start="1131" end="1151" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="digitArgument" start="1131" end="1134" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/stopPoll" statement-count="5" statements-invoked="5" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="stopPoll" start="1527" end="1587" line="41" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="stopPoll" start="1527" end="1541" line="41" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="stopPoll" start="1575" end="1587" line="41" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="stopPoll" start="1527" end="1539" line="41" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="stopPoll" start="1545" end="1558" line="41" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/leftBracket" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="leftBracket" start="884" end="887" line="24" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="leftBracket" start="870" end="874" line="24" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="leftBracket" start="870" end="888" line="24" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/date" statement-count="6" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="date" start="737" end="826" line="21" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="date" start="676" end="717" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="date" start="676" end="715" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="date" start="741" end="816" line="21" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="date" start="676" end="826" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="date" start="767" end="815" line="21" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/stringArgument" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="stringArgument" start="1015" end="1027" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="stringArgument" start="997" end="1037" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="stringArgument" start="990" end="1094" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="stringArgument" start="1063" end="1093" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="stringArgument" start="990" end="993" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="stringArgument" start="1001" end="1036" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="stringArgument" start="1030" end="1036" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="stringArgument" start="1041" end="1044" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/startPoll" statement-count="5" statements-invoked="5" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="startPoll" start="1426" end="1439" line="39" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="startPoll" start="1475" end="1488" line="39" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="startPoll" start="1445" end="1458" line="39" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="startPoll" start="1426" end="1488" line="39" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="startPoll" start="1426" end="1441" line="39" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/command" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="command" start="2429" end="2435" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="command" start="2393" end="2403" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="command" start="2418" end="2426" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="command" start="2386" end="2448" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="command" start="2438" end="2448" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="command" start="2406" end="2415" line="56" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/dateArgument" statement-count="4" statements-invoked="2" statement-rate="50.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="dateArgument" start="1212" end="1216" line="33" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="dateArgument" start="1205" end="1223" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="dateArgument" start="1205" end="1208" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="dateArgument" start="1220" end="1223" line="33" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/rightBracket" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="rightBracket" start="941" end="944" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="rightBracket" start="927" end="931" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="rightBracket" start="927" end="945" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/parse" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="parse" start="2518" end="2525" line="59" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="parse" start="2545" end="2582" line="59" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="parse" start="2556" end="2581" line="59" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="CommandParser" class-type="Object" full-class-name="CommandParser" source="C:\Users\Василий\Desktop\TelegramBot-master\src\main\scala\CommandParser.scala" method="parse" start="2495" end="2583" line="59" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

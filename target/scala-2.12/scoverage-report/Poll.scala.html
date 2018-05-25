@@ -1,0 +1,327 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          Poll.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>import java.time.LocalDateTime
+</span>2 <span style=''>
+</span>3 <span style=''>class Poll(name: String, anonymity: Boolean, visibility: Boolean,
+</span>4 <span style=''>           startTime: Option[LocalDateTime], endTime: Option[LocalDateTime]) {
+</span>5 <span style=''>
+</span>6 <span style=''>  override def toString: String = {
+</span>7 <span style=''>    </span><span style='background: #AEF1AE'>s&quot;&quot;&quot;Name:  $name
+</span>8 <span style=''></span><span style='background: #AEF1AE'>       |Anonymity:  $anonymity
+</span>9 <span style=''></span><span style='background: #AEF1AE'>       |Visibility:  $visibility
+</span>10 <span style=''></span><span style='background: #AEF1AE'>       |Start Time:  ${startTime.getOrElse(&quot;Start time not set&quot;)}
+</span>11 <span style=''></span><span style='background: #AEF1AE'>       |End Time:  ${endTime.getOrElse(&quot;End time not set&quot;)}&quot;&quot;&quot;.stripMargin</span><span style=''>
+</span>12 <span style=''>  }
+</span>13 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          7
+        </td>
+        <td>
+          160
+        </td>
+        <td>
+          234
+          -
+          256
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;\n       |Anonymity:  &quot;
+        </td>
+      </tr><tr>
+        <td>
+          7
+        </td>
+        <td>
+          165
+        </td>
+        <td>
+          230
+          -
+          234
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          Poll.name
+        </td>
+        <td style="background: #AEF1AE">
+          Poll.this.name
+        </td>
+      </tr><tr>
+        <td>
+          7
+        </td>
+        <td>
+          159
+        </td>
+        <td>
+          222
+          -
+          230
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Name:  &quot;
+        </td>
+      </tr><tr>
+        <td>
+          7
+        </td>
+        <td>
+          170
+        </td>
+        <td>
+          218
+          -
+          427
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;Name:  &quot;, &quot;\n       |Anonymity:  &quot;, &quot;\n       |Visibility:  &quot;, &quot;\n       |Start Time:  &quot;, &quot;\n       |End Time:  &quot;, &quot;&quot;).s(Poll.this.name, Poll.this.anonymity, Poll.this.visibility, Poll.this.startTime.getOrElse[Comparable[_ &gt;: java.time.chrono.ChronoLocalDateTime[?0] with String forSome { type ?0 } &lt;: Comparable[_ &gt;: java.time.chrono.ChronoLocalDateTime[?0] with String forSome { type ?0 } &lt;: Object] forSome { type ?0 }] with java.io.Serializable](&quot;Start time not set&quot;), Poll.this.endTime.getOrElse[Comparable[_ &gt;: java.time.chrono.ChronoLocalDateTime[?0] with String forSome { type ?0 } &lt;: Comparable[_ &gt;: java.time.chrono.ChronoLocalDateTime[?0] with String forSome { type ?0 } &lt;: Object] forSome { type ?0 }] with java.io.Serializable](&quot;End time not set&quot;))
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          166
+        </td>
+        <td>
+          256
+          -
+          265
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          Poll.anonymity
+        </td>
+        <td style="background: #AEF1AE">
+          Poll.this.anonymity
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          161
+        </td>
+        <td>
+          265
+          -
+          288
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;\n       |Visibility:  &quot;
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          167
+        </td>
+        <td>
+          288
+          -
+          298
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          Poll.visibility
+        </td>
+        <td style="background: #AEF1AE">
+          Poll.this.visibility
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          162
+        </td>
+        <td>
+          298
+          -
+          321
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;\n       |Start Time:  &quot;
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          163
+        </td>
+        <td>
+          364
+          -
+          385
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;\n       |End Time:  &quot;
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          168
+        </td>
+        <td>
+          322
+          -
+          363
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Option.getOrElse
+        </td>
+        <td style="background: #AEF1AE">
+          Poll.this.startTime.getOrElse[Comparable[_ &gt;: java.time.chrono.ChronoLocalDateTime[?0] with String forSome { type ?0 } &lt;: Comparable[_ &gt;: java.time.chrono.ChronoLocalDateTime[?0] with String forSome { type ?0 } &lt;: Object] forSome { type ?0 }] with java.io.Serializable](&quot;Start time not set&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          164
+        </td>
+        <td>
+          424
+          -
+          427
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;&quot;
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          169
+        </td>
+        <td>
+          386
+          -
+          423
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Option.getOrElse
+        </td>
+        <td style="background: #AEF1AE">
+          Poll.this.endTime.getOrElse[Comparable[_ &gt;: java.time.chrono.ChronoLocalDateTime[?0] with String forSome { type ?0 } &lt;: Comparable[_ &gt;: java.time.chrono.ChronoLocalDateTime[?0] with String forSome { type ?0 } &lt;: Object] forSome { type ?0 }] with java.io.Serializable](&quot;End time not set&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          171
+        </td>
+        <td>
+          218
+          -
+          439
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.collection.immutable.StringLike.stripMargin
+        </td>
+        <td style="background: #AEF1AE">
+          scala.Predef.augmentString(scala.StringContext.apply(&quot;Name:  &quot;, &quot;\n       |Anonymity:  &quot;, &quot;\n       |Visibility:  &quot;, &quot;\n       |Start Time:  &quot;, &quot;\n       |End Time:  &quot;, &quot;&quot;).s(Poll.this.name, Poll.this.anonymity, Poll.this.visibility, Poll.this.startTime.getOrElse[Comparable[_ &gt;: java.time.chrono.ChronoLocalDateTime[?0] with String forSome { type ?0 } &lt;: Comparable[_ &gt;: java.time.chrono.ChronoLocalDateTime[?0] with String forSome { type ?0 } &lt;: Object] forSome { type ?0 }] with java.io.Serializable](&quot;Start time not set&quot;), Poll.this.endTime.getOrElse[Comparable[_ &gt;: java.time.chrono.ChronoLocalDateTime[?0] with String forSome { type ?0 } &lt;: Comparable[_ &gt;: java.time.chrono.ChronoLocalDateTime[?0] with String forSome { type ?0 } &lt;: Object] forSome { type ?0 }] with java.io.Serializable](&quot;End time not set&quot;))).stripMargin
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

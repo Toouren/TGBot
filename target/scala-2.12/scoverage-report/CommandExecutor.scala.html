@@ -1,0 +1,612 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          CommandExecutor.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>import java.time.LocalDateTime
+</span>2 <span style=''>
+</span>3 <span style=''>object CommandExecutor {
+</span>4 <span style=''>  var memoryPoll: Map[Int, Poll] = </span><span style='background: #AEF1AE'>Map.empty</span><span style=''>
+</span>5 <span style=''>  private val idGenerator = </span><span style='background: #AEF1AE'>Stream.from(1).iterator</span><span style=''>
+</span>6 <span style=''>
+</span>7 <span style=''>  private def executeCommand(command: Command): String = {
+</span>8 <span style=''>    command match {
+</span>9 <span style=''>      case CreatePoll(name, anonymity, visibility, startTime, endTime) =&gt;
+</span>10 <span style=''>        val id = </span><span style='background: #AEF1AE'>idGenerator.next()</span><span style=''>
+</span>11 <span style=''>        </span><span style='background: #AEF1AE'>memoryPoll += (id -&gt; new Poll(name, anonymity, visibility, startTime, endTime))</span><span style=''>
+</span>12 <span style=''>        </span><span style='background: #AEF1AE'>s&quot;Poll with ($id) id was created&quot;</span><span style=''>
+</span>13 <span style=''>
+</span>14 <span style=''>      case List() =&gt; </span><span style='background: #AEF1AE'>memoryPoll.mkString(&quot;\n&quot;)</span><span style=''>
+</span>15 <span style=''>
+</span>16 <span style=''>      case DeletePoll(id) =&gt; </span><span style='background: #AEF1AE'>memoryPoll.get(id)</span><span style=''> match {
+</span>17 <span style=''>        case Some(poll) =&gt;
+</span>18 <span style=''>          </span><span style='background: #AEF1AE'>memoryPoll -= id</span><span style=''>
+</span>19 <span style=''>          </span><span style='background: #AEF1AE'>s&quot;Poll with ($id) was deleted&quot;</span><span style=''>
+</span>20 <span style=''>        case None =&gt; </span><span style='background: #AEF1AE'>s&quot;Poll with ($id) id not found&quot;</span><span style=''>
+</span>21 <span style=''>      }
+</span>22 <span style=''>
+</span>23 <span style=''>      case StartPoll(id) =&gt; </span><span style='background: #AEF1AE'>memoryPoll.get(id)</span><span style=''> match {
+</span>24 <span style=''>        case Some(poll) =&gt;
+</span>25 <span style=''>          </span><span style='background: #AEF1AE'>s&quot;Poll with ($id) id was started&quot;</span><span style=''>
+</span>26 <span style=''>        case None =&gt; </span><span style='background: #AEF1AE'>s&quot;Poll with ($id) id not found&quot;</span><span style=''>
+</span>27 <span style=''>      }
+</span>28 <span style=''>
+</span>29 <span style=''>      case StopPoll(id) =&gt; </span><span style='background: #AEF1AE'>memoryPoll.get(id)</span><span style=''> match {
+</span>30 <span style=''>        case Some(poll) =&gt;
+</span>31 <span style=''>          </span><span style='background: #AEF1AE'>s&quot;Poll with ($id) id was stop&quot;</span><span style=''>
+</span>32 <span style=''>        case None =&gt; </span><span style='background: #AEF1AE'>s&quot;Poll with ($id) id not found&quot;</span><span style=''>
+</span>33 <span style=''>      }
+</span>34 <span style=''>
+</span>35 <span style=''>      case Result(id) =&gt; </span><span style='background: #AEF1AE'>memoryPoll.get(id)</span><span style=''> match {
+</span>36 <span style=''>        case Some(poll) =&gt;
+</span>37 <span style=''>          </span><span style='background: #F0ADAD'>poll.toString()</span><span style=''>
+</span>38 <span style=''>        case None =&gt; </span><span style='background: #AEF1AE'>s&quot;Poll with ($id) id not found&quot;</span><span style=''>
+</span>39 <span style=''>      }
+</span>40 <span style=''>
+</span>41 <span style=''>      case BadCommand(massage) =&gt; massage
+</span>42 <span style=''>    }
+</span>43 <span style=''>  }
+</span>44 <span style=''>
+</span>45 <span style=''>  def applyCommand(command: Command): String = </span><span style='background: #AEF1AE'>executeCommand(command)</span><span style=''>
+</span>46 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          4
+        </td>
+        <td>
+          3
+        </td>
+        <td>
+          92
+          -
+          101
+        </td>
+        <td>
+          TypeApply
+        </td>
+        <td>
+          scala.collection.immutable.Map.empty
+        </td>
+        <td style="background: #AEF1AE">
+          scala.Predef.Map.empty[Int, Nothing]
+        </td>
+      </tr><tr>
+        <td>
+          5
+        </td>
+        <td>
+          5
+        </td>
+        <td>
+          130
+          -
+          153
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.collection.immutable.Stream.iterator
+        </td>
+        <td style="background: #AEF1AE">
+          scala.`package`.Stream.from(1).iterator
+        </td>
+      </tr><tr>
+        <td>
+          5
+        </td>
+        <td>
+          4
+        </td>
+        <td>
+          142
+          -
+          143
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          1
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          6
+        </td>
+        <td>
+          325
+          -
+          343
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.Iterator.next
+        </td>
+        <td style="background: #AEF1AE">
+          CommandExecutor.this.idGenerator.next()
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          8
+        </td>
+        <td>
+          367
+          -
+          430
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Predef.ArrowAssoc.-&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          scala.Predef.ArrowAssoc[Int](id).-&gt;[Poll](new Poll(name, anonymity, visibility, startTime, endTime))
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          7
+        </td>
+        <td>
+          373
+          -
+          430
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          Poll.&lt;init&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          new Poll(name, anonymity, visibility, startTime, endTime)
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          10
+        </td>
+        <td>
+          352
+          -
+          431
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          CommandExecutor.memoryPoll_=
+        </td>
+        <td style="background: #AEF1AE">
+          CommandExecutor.this.memoryPoll_=(CommandExecutor.this.memoryPoll.+[Poll](scala.Predef.ArrowAssoc[Int](id).-&gt;[Poll](new Poll(name, anonymity, visibility, startTime, endTime))))
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          9
+        </td>
+        <td>
+          352
+          -
+          431
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.immutable.Map.+
+        </td>
+        <td style="background: #AEF1AE">
+          CommandExecutor.this.memoryPoll.+[Poll](scala.Predef.ArrowAssoc[Int](id).-&gt;[Poll](new Poll(name, anonymity, visibility, startTime, endTime)))
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          11
+        </td>
+        <td>
+          440
+          -
+          473
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;Poll with (&quot;, &quot;) id was created&quot;).s(id)
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          12
+        </td>
+        <td>
+          496
+          -
+          521
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.TraversableOnce.mkString
+        </td>
+        <td style="background: #AEF1AE">
+          CommandExecutor.this.memoryPoll.mkString(&quot;\n&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          13
+        </td>
+        <td>
+          552
+          -
+          570
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.MapLike.get
+        </td>
+        <td style="background: #AEF1AE">
+          CommandExecutor.this.memoryPoll.get(id)
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          14
+        </td>
+        <td>
+          616
+          -
+          632
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.MapLike.-
+        </td>
+        <td style="background: #AEF1AE">
+          CommandExecutor.this.memoryPoll.-(id)
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          15
+        </td>
+        <td>
+          616
+          -
+          632
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          CommandExecutor.memoryPoll_=
+        </td>
+        <td style="background: #AEF1AE">
+          CommandExecutor.this.memoryPoll_=(CommandExecutor.this.memoryPoll.-(id))
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          16
+        </td>
+        <td>
+          643
+          -
+          673
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;Poll with (&quot;, &quot;) was deleted&quot;).s(id)
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          17
+        </td>
+        <td>
+          695
+          -
+          726
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;Poll with (&quot;, &quot;) id not found&quot;).s(id)
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          18
+        </td>
+        <td>
+          764
+          -
+          782
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.MapLike.get
+        </td>
+        <td style="background: #AEF1AE">
+          CommandExecutor.this.memoryPoll.get(id)
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          19
+        </td>
+        <td>
+          828
+          -
+          861
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;Poll with (&quot;, &quot;) id was started&quot;).s(id)
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          20
+        </td>
+        <td>
+          883
+          -
+          914
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;Poll with (&quot;, &quot;) id not found&quot;).s(id)
+        </td>
+      </tr><tr>
+        <td>
+          29
+        </td>
+        <td>
+          21
+        </td>
+        <td>
+          951
+          -
+          969
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.MapLike.get
+        </td>
+        <td style="background: #AEF1AE">
+          CommandExecutor.this.memoryPoll.get(id)
+        </td>
+      </tr><tr>
+        <td>
+          31
+        </td>
+        <td>
+          22
+        </td>
+        <td>
+          1015
+          -
+          1045
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;Poll with (&quot;, &quot;) id was stop&quot;).s(id)
+        </td>
+      </tr><tr>
+        <td>
+          32
+        </td>
+        <td>
+          23
+        </td>
+        <td>
+          1067
+          -
+          1098
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;Poll with (&quot;, &quot;) id not found&quot;).s(id)
+        </td>
+      </tr><tr>
+        <td>
+          35
+        </td>
+        <td>
+          24
+        </td>
+        <td>
+          1133
+          -
+          1151
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.MapLike.get
+        </td>
+        <td style="background: #AEF1AE">
+          CommandExecutor.this.memoryPoll.get(id)
+        </td>
+      </tr><tr>
+        <td>
+          37
+        </td>
+        <td>
+          25
+        </td>
+        <td>
+          1197
+          -
+          1212
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          Poll.toString
+        </td>
+        <td style="background: #F0ADAD">
+          poll.toString()
+        </td>
+      </tr><tr>
+        <td>
+          38
+        </td>
+        <td>
+          26
+        </td>
+        <td>
+          1234
+          -
+          1265
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #AEF1AE">
+          scala.StringContext.apply(&quot;Poll with (&quot;, &quot;) id not found&quot;).s(id)
+        </td>
+      </tr><tr>
+        <td>
+          45
+        </td>
+        <td>
+          27
+        </td>
+        <td>
+          1375
+          -
+          1398
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          CommandExecutor.executeCommand
+        </td>
+        <td style="background: #AEF1AE">
+          CommandExecutor.this.executeCommand(command)
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="DESKTOP-P12QIA4" name="ParserTest" tests="13" errors="0" failures="0" skipped="0" time="0.192">
+                     <properties>
+      <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.specification.version" value="9"/><property name="sun.cpu.isalist" value="amd64"/><property name="sun.jnu.encoding" value="Cp1251"/><property name="sbt.log.format" value="true"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jre-9.0.4\bin"/><property name="sun.java.command" value="xsbt.boot.Boot"/><property name="jdk.debug" value="release"/><property name="sun.stderr.encoding" value="cp866"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.home" value="C:\Program Files\Java\jre-9.0.4"/><property name="file.separator" value="\"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="sun.stdout.encoding" value="cp866"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.script" value=""/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="9.0.4+11"/><property name="user.name" value="Василий"/><property name="file.encoding" value="Cp1251"/><property name="java.io.tmpdir" value="C:\Users\5791~1\AppData\Local\Temp\"/><property name="java.version" value="9.0.4"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="sun.os.patch.level" value=""/><property name="java.library.path" value="C:\ProgramData\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\sbt\bin;C:\Users\Василий\AppData\Local\Microsoft\WindowsApps;C:\Users\Василий\AppData\Local\Programs\Python\Python36-32\Scripts;C:\python36;;."/><property name="java.vendor" value="Oracle Corporation"/><property name="scala.ext.dirs" value="C:\Users\Tрёшышщ\.sbt\0.13\java9-rt-ext-oracle_corporation_9_0_4"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="windows"/><property name="file.encoding.pkg" value="sun.io"/><property name="java.class.path" value="C:\Program Files (x86)\sbt\bin\sbt-launch.jar"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Asia/Yekaterinburg"/><property name="os.name" value="Windows 10"/><property name="java.vm.specification.version" value="9"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="RU"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="C:\Users\Василий"/><property name="user.language" value="ru"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=";"/><property name="os.version" value="10.0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/><property name="user.dir" value="C:\Users\Василий\Desktop\TelegramBot-master"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode"/><property name="java.vm.version" value="9.0.4+11"/><property name="java.class.version" value="53.0"/>
+    </properties>
+                     <testcase classname="ParserTest" name="There are 10 same polls should be created" time="0.082">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="There are 10 same polls should be deleted" time="0.016">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="There is list with no sets should be compared" time="0.047">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="There is list with visibility set should be compared" time="0.0">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="There is list with anonymity set should be compared" time="0.0">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="There is list with visibility and anonymity sets should be compared" time="0.0">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="There is trying to delete uncreated polls should be exception" time="0.0">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="There is trying to start uncreated polls should be exception" time="0.016">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="There is trying to start created polls should be exception" time="0.0">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="There is trying to stop uncreated polls should be exception" time="0.015">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="There is trying to stop created polls should be exception" time="0.0">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="There is trying to get result from uncreated polls should be exception" time="0.016">
+                                                 
+                                               </testcase><testcase classname="ParserTest" name="There is trying to check any bad commands should be message about bat command" time="0.0">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

@@ -1,0 +1,501 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage 
+line-rate="0.83" lines-valid="171" lines-covered="142" branches-valid="0" branches-covered="0" branch-rate="1.00" complexity="0" version="1.0" timestamp="1524852559665">
+    <sources>
+        <source>--source</source>
+        <source>C:/Users/Василий/Desktop/TelegramBot-master/src/main/scala</source>
+    </sources>
+    <packages>
+        <package name="&lt;empty&gt;" line-rate="0.83" branch-rate="1.00" complexity="0">
+            <classes>
+                <class name="Bot" filename="Bot.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="&lt;empty&gt;/Bot/doCommand" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="6" hits="1" branch="false"/>
+                                <line number="6" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="6" hits="1" branch="false"/>
+                        <line number="6" hits="1" branch="false"/>
+                    </lines>
+                </class>
+                <class name="CommandExecutor" filename="CommandExecutor.scala" line-rate="0.96" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/CommandExecutor/executeCommand" signature="()V" line-rate="0.95" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="32" hits="1" branch="false"/>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="11" hits="1" branch="false"/>
+                                <line number="38" hits="1" branch="false"/>
+                                <line number="12" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="18" hits="1" branch="false"/>
+                                <line number="16" hits="1" branch="false"/>
+                                <line number="31" hits="1" branch="false"/>
+                                <line number="19" hits="1" branch="false"/>
+                                <line number="11" hits="1" branch="false"/>
+                                <line number="37" hits="0" branch="false"/>
+                                <line number="11" hits="1" branch="false"/>
+                                <line number="25" hits="1" branch="false"/>
+                                <line number="23" hits="1" branch="false"/>
+                                <line number="11" hits="1" branch="false"/>
+                                <line number="29" hits="1" branch="false"/>
+                                <line number="14" hits="1" branch="false"/>
+                                <line number="18" hits="1" branch="false"/>
+                                <line number="35" hits="1" branch="false"/>
+                                <line number="10" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandExecutor/&lt;none&gt;" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="5" hits="1" branch="false"/>
+                                <line number="5" hits="1" branch="false"/>
+                                <line number="4" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandExecutor/applyCommand" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="45" hits="1" branch="false"/>
+                            </lines>
+</method>
+                    </methods>
+                    <lines>
+                        <line number="32" hits="1" branch="false"/>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="11" hits="1" branch="false"/>
+                        <line number="38" hits="1" branch="false"/>
+                        <line number="12" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="18" hits="1" branch="false"/>
+                        <line number="16" hits="1" branch="false"/>
+                        <line number="5" hits="1" branch="false"/>
+                        <line number="31" hits="1" branch="false"/>
+                        <line number="19" hits="1" branch="false"/>
+                        <line number="11" hits="1" branch="false"/>
+                        <line number="37" hits="0" branch="false"/>
+                        <line number="11" hits="1" branch="false"/>
+                        <line number="25" hits="1" branch="false"/>
+                        <line number="45" hits="1" branch="false"/>
+                        <line number="23" hits="1" branch="false"/>
+                        <line number="11" hits="1" branch="false"/>
+                        <line number="29" hits="1" branch="false"/>
+                        <line number="4" hits="1" branch="false"/>
+                        <line number="14" hits="1" branch="false"/>
+                        <line number="18" hits="1" branch="false"/>
+                        <line number="35" hits="1" branch="false"/>
+                        <line number="10" hits="1" branch="false"/>
+                    </lines>
+                </class>
+                <class name="Poll" filename="Poll.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="&lt;empty&gt;/Poll/toString" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="11" hits="1" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="11" hits="1" branch="false"/>
+                                <line number="7" hits="1" branch="false"/>
+                                <line number="10" hits="1" branch="false"/>
+                                <line number="7" hits="1" branch="false"/>
+                                <line number="10" hits="1" branch="false"/>
+                                <line number="7" hits="1" branch="false"/>
+                                <line number="11" hits="1" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="7" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="11" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="11" hits="1" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
+                        <line number="10" hits="1" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
+                        <line number="10" hits="1" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
+                        <line number="11" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                    </lines>
+                </class>
+                <class name="Main" filename="Main.scala" line-rate="0.00" branch-rate="0.00" complexity="0">
+                    <methods>
+                        <method name="&lt;empty&gt;/Main/main" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
+                            <lines>
+                                <line number="6" hits="0" branch="false"/>
+                                <line number="11" hits="0" branch="false"/>
+                                <line number="12" hits="0" branch="false"/>
+                                <line number="8" hits="0" branch="false"/>
+                                <line number="9" hits="0" branch="false"/>
+                                <line number="6" hits="0" branch="false"/>
+                                <line number="10" hits="0" branch="false"/>
+                                <line number="12" hits="0" branch="false"/>
+                                <line number="7" hits="0" branch="false"/>
+                                <line number="7" hits="0" branch="false"/>
+                                <line number="11" hits="0" branch="false"/>
+                                <line number="8" hits="0" branch="false"/>
+                                <line number="5" hits="0" branch="false"/>
+                                <line number="10" hits="0" branch="false"/>
+                                <line number="9" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="6" hits="0" branch="false"/>
+                        <line number="11" hits="0" branch="false"/>
+                        <line number="12" hits="0" branch="false"/>
+                        <line number="8" hits="0" branch="false"/>
+                        <line number="9" hits="0" branch="false"/>
+                        <line number="6" hits="0" branch="false"/>
+                        <line number="10" hits="0" branch="false"/>
+                        <line number="12" hits="0" branch="false"/>
+                        <line number="7" hits="0" branch="false"/>
+                        <line number="7" hits="0" branch="false"/>
+                        <line number="11" hits="0" branch="false"/>
+                        <line number="8" hits="0" branch="false"/>
+                        <line number="5" hits="0" branch="false"/>
+                        <line number="10" hits="0" branch="false"/>
+                        <line number="9" hits="0" branch="false"/>
+                    </lines>
+                </class>
+                <class name="CommandParser" filename="CommandParser.scala" line-rate="0.89" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/deletePoll" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="37" hits="1" branch="false"/>
+                                <line number="37" hits="1" branch="false"/>
+                                <line number="37" hits="1" branch="false"/>
+                                <line number="37" hits="1" branch="false"/>
+                                <line number="37" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method name="&lt;empty&gt;/CommandParser/string" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="13" hits="1" branch="false"/>
+                                <line number="13" hits="1" branch="false"/>
+                                <line number="13" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/anonymity" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="15" hits="1" branch="false"/>
+                                <line number="15" hits="1" branch="false"/>
+                                <line number="15" hits="1" branch="false"/>
+                                <line number="15" hits="1" branch="false"/>
+                                <line number="15" hits="1" branch="false"/>
+                                <line number="15" hits="1" branch="false"/>
+                                <line number="15" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method name="&lt;empty&gt;/CommandParser/digits" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="11" hits="1" branch="false"/>
+                                <line number="11" hits="1" branch="false"/>
+                                <line number="11" hits="1" branch="false"/>
+                                <line number="11" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/createPoll" signature="()V" line-rate="0.81" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="46" hits="0" branch="false"/>
+                                <line number="47" hits="1" branch="false"/>
+                                <line number="49" hits="1" branch="false"/>
+                                <line number="51" hits="0" branch="false"/>
+                                <line number="47" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="48" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="48" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="49" hits="1" branch="false"/>
+                                <line number="47" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="51" hits="0" branch="false"/>
+                                <line number="47" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="49" hits="1" branch="false"/>
+                                <line number="47" hits="1" branch="false"/>
+                                <line number="53" hits="0" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="48" hits="1" branch="false"/>
+                                <line number="48" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="46" hits="1" branch="false"/>
+                                <line number="46" hits="0" branch="false"/>
+                            </lines>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/visibility" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="17" hits="1" branch="false"/>
+                                <line number="17" hits="1" branch="false"/>
+                                <line number="17" hits="1" branch="false"/>
+                                <line number="17" hits="1" branch="false"/>
+                                <line number="17" hits="1" branch="false"/>
+                                <line number="17" hits="1" branch="false"/>
+                                <line number="17" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method name="&lt;empty&gt;/CommandParser/result" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="43" hits="1" branch="false"/>
+                                <line number="43" hits="1" branch="false"/>
+                                <line number="43" hits="1" branch="false"/>
+                                <line number="43" hits="1" branch="false"/>
+                                <line number="43" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/&lt;none&gt;" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method name="&lt;empty&gt;/CommandParser/list" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="35" hits="1" branch="false"/>
+                                <line number="35" hits="1" branch="false"/>
+                                <line number="35" hits="1" branch="false"/>
+                                <line number="35" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/digitArgument" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="31" hits="1" branch="false"/>
+                                <line number="31" hits="1" branch="false"/>
+                                <line number="31" hits="1" branch="false"/>
+                                <line number="31" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method name="&lt;empty&gt;/CommandParser/stopPoll" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="41" hits="1" branch="false"/>
+                                <line number="41" hits="1" branch="false"/>
+                                <line number="41" hits="1" branch="false"/>
+                                <line number="41" hits="1" branch="false"/>
+                                <line number="41" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/leftBracket" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="24" hits="1" branch="false"/>
+                                <line number="24" hits="1" branch="false"/>
+                                <line number="24" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method name="&lt;empty&gt;/CommandParser/date" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
+                            <lines>
+                                <line number="21" hits="0" branch="false"/>
+                                <line number="20" hits="0" branch="false"/>
+                                <line number="20" hits="0" branch="false"/>
+                                <line number="21" hits="0" branch="false"/>
+                                <line number="20" hits="0" branch="false"/>
+                                <line number="21" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/stringArgument" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="29" hits="1" branch="false"/>
+                                <line number="29" hits="1" branch="false"/>
+                                <line number="29" hits="1" branch="false"/>
+                                <line number="29" hits="1" branch="false"/>
+                                <line number="29" hits="1" branch="false"/>
+                                <line number="29" hits="1" branch="false"/>
+                                <line number="29" hits="1" branch="false"/>
+                                <line number="29" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/startPoll" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="39" hits="1" branch="false"/>
+                                <line number="39" hits="1" branch="false"/>
+                                <line number="39" hits="1" branch="false"/>
+                                <line number="39" hits="1" branch="false"/>
+                                <line number="39" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method name="&lt;empty&gt;/CommandParser/command" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                                <line number="56" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/dateArgument" signature="()V" line-rate="0.50" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="33" hits="0" branch="false"/>
+                                <line number="33" hits="1" branch="false"/>
+                                <line number="33" hits="1" branch="false"/>
+                                <line number="33" hits="0" branch="false"/>
+                            </lines>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/CommandParser/rightBracket" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                            </lines>
+</method>
+                        <method name="&lt;empty&gt;/CommandParser/parse" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="59" hits="1" branch="false"/>
+                                <line number="59" hits="1" branch="false"/>
+                                <line number="59" hits="1" branch="false"/>
+                                <line number="59" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="39" hits="1" branch="false"/>
+                        <line number="41" hits="1" branch="false"/>
+                        <line number="35" hits="1" branch="false"/>
+                        <line number="46" hits="0" branch="false"/>
+                        <line number="47" hits="1" branch="false"/>
+                        <line number="49" hits="1" branch="false"/>
+                        <line number="39" hits="1" branch="false"/>
+                        <line number="43" hits="1" branch="false"/>
+                        <line number="51" hits="0" branch="false"/>
+                        <line number="47" hits="1" branch="false"/>
+                        <line number="31" hits="1" branch="false"/>
+                        <line number="35" hits="1" branch="false"/>
+                        <line number="17" hits="1" branch="false"/>
+                        <line number="21" hits="0" branch="false"/>
+                        <line number="29" hits="1" branch="false"/>
+                        <line number="59" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="15" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="24" hits="1" branch="false"/>
+                        <line number="17" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="11" hits="1" branch="false"/>
+                        <line number="15" hits="1" branch="false"/>
+                        <line number="48" hits="1" branch="false"/>
+                        <line number="37" hits="1" branch="false"/>
+                        <line number="33" hits="0" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="29" hits="1" branch="false"/>
+                        <line number="41" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="29" hits="1" branch="false"/>
+                        <line number="20" hits="0" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="13" hits="1" branch="false"/>
+                        <line number="15" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="59" hits="1" branch="false"/>
+                        <line number="48" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="43" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="15" hits="1" branch="false"/>
+                        <line number="49" hits="1" branch="false"/>
+                        <line number="47" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="41" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="33" hits="1" branch="false"/>
+                        <line number="37" hits="1" branch="false"/>
+                        <line number="20" hits="0" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="29" hits="1" branch="false"/>
+                        <line number="21" hits="0" branch="false"/>
+                        <line number="29" hits="1" branch="false"/>
+                        <line number="35" hits="1" branch="false"/>
+                        <line number="39" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="17" hits="1" branch="false"/>
+                        <line number="13" hits="1" branch="false"/>
+                        <line number="51" hits="0" branch="false"/>
+                        <line number="47" hits="1" branch="false"/>
+                        <line number="43" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="31" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="41" hits="1" branch="false"/>
+                        <line number="33" hits="1" branch="false"/>
+                        <line number="37" hits="1" branch="false"/>
+                        <line number="29" hits="1" branch="false"/>
+                        <line number="17" hits="1" branch="false"/>
+                        <line number="15" hits="1" branch="false"/>
+                        <line number="11" hits="1" branch="false"/>
+                        <line number="24" hits="1" branch="false"/>
+                        <line number="11" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="49" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="47" hits="1" branch="false"/>
+                        <line number="20" hits="0" branch="false"/>
+                        <line number="37" hits="1" branch="false"/>
+                        <line number="39" hits="1" branch="false"/>
+                        <line number="53" hits="0" branch="false"/>
+                        <line number="59" hits="1" branch="false"/>
+                        <line number="43" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="48" hits="1" branch="false"/>
+                        <line number="31" hits="1" branch="false"/>
+                        <line number="29" hits="1" branch="false"/>
+                        <line number="37" hits="1" branch="false"/>
+                        <line number="24" hits="1" branch="false"/>
+                        <line number="41" hits="1" branch="false"/>
+                        <line number="17" hits="1" branch="false"/>
+                        <line number="15" hits="1" branch="false"/>
+                        <line number="33" hits="0" branch="false"/>
+                        <line number="29" hits="1" branch="false"/>
+                        <line number="48" hits="1" branch="false"/>
+                        <line number="11" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="56" hits="1" branch="false"/>
+                        <line number="46" hits="1" branch="false"/>
+                        <line number="21" hits="0" branch="false"/>
+                        <line number="17" hits="1" branch="false"/>
+                        <line number="35" hits="1" branch="false"/>
+                        <line number="39" hits="1" branch="false"/>
+                        <line number="43" hits="1" branch="false"/>
+                        <line number="31" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="13" hits="1" branch="false"/>
+                        <line number="46" hits="0" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="15" hits="1" branch="false"/>
+                        <line number="17" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="59" hits="1" branch="false"/>
+                    </lines>
+                </class>
+            </classes>
+        </package>
+    </packages>
+</coverage>

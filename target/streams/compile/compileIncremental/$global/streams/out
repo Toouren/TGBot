@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 6 sources: invalidated sources (6) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 6 Scala sources to C:\Users\Василий\Desktop\TelegramBot-master\target\scala-2.12\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.0.5:compile for Scala 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.0.5:compile for Scala 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 2e43f2fd for Scala compiler version 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xplugin:C:\Users\Василий\.ivy2\cache\org.scoverage\scalac-scoverage-plugin_2.12\jars\scalac-scoverage-plugin_2.12-1.3.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:scoverage:dataDir:C:\Users\Василий\Desktop\TelegramBot-master\target\scala-2.12/scoverage-data[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Yrangepos[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Василий\.sbt\boot\scala-2.12.4\lib\scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Василий\Desktop\TelegramBot-master\target\scala-2.12\classes;C:\Users\Василий\.ivy2\cache\org.scoverage\scalac-scoverage-runtime_2.12\jars\scalac-scoverage-runtime_2.12-1.3.1.jar;C:\Users\Василий\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\bundles\scala-parser-combinators_2.12-1.0.5.jar;C:\Users\Василий\.ivy2\cache\org.scalactic\scalactic_2.12\bundles\scalactic_2.12-3.0.5.jar;C:\Users\Василий\.sbt\boot\scala-2.12.4\lib\scala-reflect.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 4.289239794 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
